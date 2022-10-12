@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <main>
+      <header>
+        <h1>Aadil Mallick</h1>
+        <p>🚀 Welcome to my website!</p>
+      </header>
+
+      <blockquote>
+        <p>I'm trying out Three.js for the first time!</p>
+      </blockquote>
+
+      <section>
+        <h2>📜 Why Three.js</h2>
+        <p>
+          I've always thought that Three.js was cool, and wanted to learn how 3D
+          modeling can work with javascript. So that's why I came out and tried
+          Three.js. I learned that there are three essential parts to a three.js
+          project: the scene, camera, and renderer. The scene contains
+          everything that three.js will render. The camera shows us the model
+          from a perspective that we choose. The renderer handles how the 3d
+          objects are rendered.
+        </p>
+
+        <p>
+          Once the scene, camera, and renderer are all set up, we can get ready
+          to start creating. Making shapes in three.js is a simple process. 
+          <ol>
+            <li>Create a geometry using something from three.js</li>
+            <li>Create material. You can either use basic or standard material to start off. 
+              Basic material is not affected by light.</li>
+            <li>Finally, you can create the object by using the <code>Three.mesh()</code> method, which takes in a geometry and a material and meshes them together to create a 3D shape.</li>
+          </ol>
+        </p>
+
+        <p>
+          After we create a shape, we can position them and rotate them. But you can't animate them until you initiate a game loop.
+          A game loop is nothing special to three.js. You can make a game loop using the <code>requestAnimationFrame()</code> function, which uses recursion to request a new frame each time. Inside the function you're requesting to rerun every frame, you can start changing the position and rotating objects, which actually animates the objects.
+        </p>
+      </section>
+
+   
+
+      <blockquote>
+        <p>I hope to continue my three.js journey</p>
+      </blockquote>
+
+      <!-- <section class="left">
+        <h2>🌮 Work History</h2>
+
+        <h3>McDonalds</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Burger King</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Taco Bell</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section> -->
+
+      
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
